@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+    <title>Expenses Chart</title>
+  </head>
+  
+  <body>
+    <div class="model">
+      <div class="graphic--model">
+          <a href="">
+            <div class="graphic"></div>
+          </a>
+          <span class="day"></span>
+      </div>
+    </div>
+
+    <div class="container--general">
+
+      <div class="container--balance">
+        <span class="balance--title" > My balance
+          <span class="balance">$921.48</span>
+        </span>
+        <a id="logo" href="">
+          <img src="/img/logo.svg" alt="logo" />
+        </a>
+      </div>
+
+      <div class="container--spending">
+        <h1>Spending - Last 7 days</h1>
+        <div class="graphic--area"></div> 
+        <div class="bar"></div>
+        <div class="container--total">
+          <span class="total--info">Total this month</span>
+          <span class="total">$4780.33</span>
+        </div>
+
+        <div class="container--yield">
+          <span class="yield">+2.4%</span>
+          <span class="total--info">from last month</span>
+        </div>
+      </div> 
+    </div>
+   
+    <script src="/data.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
